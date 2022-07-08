@@ -20,5 +20,13 @@
     "passport-local": "^1.0.0"
   },
   "keywords": [],
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasgabrielba/blog-do-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasgabrielba/blog-do-node/issues"
+  },
+  "homepage": "https://github.com/lucasgabrielba/blog-do-node#readme"
 }
