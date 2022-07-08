@@ -53,7 +53,7 @@ app.use("/admin", admin);
 app.use("/usuarios", usuarios);
 
 mongoose
-  .connect(db.mongoURI)
+  .connect(db.mongoURI, { useNewUrlParser: true })
   .then(() => {
     console.log("conectado ao mongo");
   })
